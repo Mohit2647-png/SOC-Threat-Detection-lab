@@ -79,7 +79,7 @@
        | Nmap          |   | Enterprise    |
        | NetExec       |   | SIEM          |
        +---------------+   +---------------+
-
+Security Monitoring Pipeline
 Kali Linux
     |
     | Attack Simulation
