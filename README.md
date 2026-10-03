@@ -190,10 +190,10 @@ Key Learning Outcomes
 
 ## Through this project, I gained practical experience with:
 
-SIEM configuration
-SPL query development
-Network traffic analysis
-IDS deployment
+- SIEM configuration
+- SPL query development
+- Network traffic analysis
+- IDS deployment
 Network Security Monitoring
 Linux log analysis
 Windows Security Event analysis
