@@ -9,7 +9,13 @@
 `SIEM Querying (SPL)` · `Network Traffic Analysis (Zeek)` · `IDS (Suricata)` · `Detection Engineering` · `Attack Simulation` · `Linux Administration` · `Windows Security Monitoring` · `Incident Detection` · `Security Alerting` · `SOC Dashboard Development`
 
 ---
+#Disclaimer
 
+This project was created strictly for educational and cybersecurity learning purposes inside an isolated VirtualBox lab environment.
+
+All attack simulations were performed against systems controlled by the author.
+
+Do not use these techniques against systems or networks without proper authorization.
 ## Lab Overview
 
 ### Host Machine
