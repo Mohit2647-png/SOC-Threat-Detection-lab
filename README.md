@@ -79,3 +79,27 @@
        | Nmap          |   | Enterprise    |
        | NetExec       |   | SIEM          |
        +---------------+   +---------------+
+
+Kali Linux
+    |
+    | Attack Simulation
+    v
+Ubuntu
+    |
+    +--> Suricata --> eve.json
+    |
+    +--> Zeek ------> conn.log
+    |                 dns.log
+    |                 http.log
+    |
+    +--> auth.log
+    |
+    v
+Splunk Universal Forwarder
+    |
+    | TCP 9997
+    v
+Windows Splunk Enterprise
+    |
+    v
+Detection Rules + Alerts + Dashboard
