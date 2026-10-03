@@ -121,12 +121,29 @@ Detection Rules + Alerts + Dashboard
 ## Log Collection
 
 Splunk Universal Forwarder on Ubuntu forwards security telemetry to Splunk Enterprise running on Windows.
-# splunk receiver
+## splunk receiver
 192.168.20.10:9997
-# Monitored Logs
+## Monitored Logs
 /var/log/suricata/eve.json
 /var/log/auth.log
 /home/ubun/Desktop/conn.log
 /home/ubun/Desktop/http.log
 /home/ubun/Desktop/dns.log
+## Splunk Indexes
+| Index         | Data                       |
+| ------------- | -------------------------- |
+| `suricata`    | Suricata network events    |
+| `zeek`        | Zeek network telemetry     |
+| `ubuntu-auth` | Ubuntu authentication logs |
+| `windows10`   | Windows Security Events    |
+## Detection Engineering
 
+Multiple attacks were simulated from Kali Linux and detected using Suricata, Zeek, Windows Security Logs, Ubuntu authentication logs, and Splunk.
+| Detection          | Source          | Technology                     |
+| ------------------ | --------------- | ------------------------------ |
+| Nmap Port Scanning | Kali → Windows  | Suricata + Splunk              |
+| SSH Brute Force    | Kali → Ubuntu   | Ubuntu Auth Logs + Splunk      |
+| SMB Brute Force    | Kali → Windows  | Windows Security Logs + Splunk |
+| HTTP Beaconing     | Network Traffic | Zeek + Splunk                  |
+| Reverse Shell      | Kali ↔ Ubuntu   | Zeek + Splunk                  |
+| DNS Anomaly        | DNS Traffic     | Zeek + Splunk                  |
