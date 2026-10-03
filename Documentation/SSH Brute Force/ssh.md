@@ -1,12 +1,15 @@
 # SSH Brute Force Detection
 
-Multiple failed SSH authentication attempts were generated against the Ubuntu server.
+Definition:
+Detects repeated failed SSH authentication attempts that may indicate an attacker trying to guess a valid username and password.
+
+Test performed: Multiple failed SSH login attempts were generated from Kali against Ubuntu. Ubuntu /var/log/auth.log was forwarded to Splunk and analyzed for repeated Failed password events.
 
 ## Ubuntu authentication logs:
 ```bash
 /var/log/auth.log
 ```
-## Detection
+## Detection:
 ```bash
 index=ubuntu-auth "Failed password"
 | rex "Failed password for (?:invalid user )?(?<Account_Name>\S+) from (?<Source_IP>\d{1,3}(?:\.\d{1,3}){3})"
