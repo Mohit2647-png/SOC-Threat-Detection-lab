@@ -9,7 +9,7 @@
 `SIEM Querying (SPL)` · `Network Traffic Analysis (Zeek)` · `IDS (Suricata)` · `Detection Engineering` · `Attack Simulation` · `Linux Administration` · `Windows Security Monitoring` · `Incident Detection` · `Security Alerting` · `SOC Dashboard Development`
 
 ---
-#Disclaimer
+# Disclaimer
 
 This project was created strictly for educational and cybersecurity learning purposes inside an isolated VirtualBox lab environment.
 
@@ -153,3 +153,18 @@ Multiple attacks were simulated from Kali Linux and detected using Suricata, Zee
 | HTTP Beaconing     | Network Traffic | Zeek + Splunk                  |
 | Reverse Shell      | Kali ↔ Ubuntu   | Zeek + Splunk                  |
 | DNS Anomaly        | DNS Traffic     | Zeek + Splunk                  |
+# Tools and Technologies
+| Tool                       | Purpose                                           |
+| -------------------------- | ------------------------------------------------- |
+| Kali Linux                 | Attack simulation and penetration testing         |
+| Ubuntu                     | Network server, IDS and log forwarding            |
+| Windows                    | Splunk Enterprise and Windows security monitoring |
+| Splunk Enterprise          | SIEM, log analysis and detection                  |
+| Splunk Universal Forwarder | Log collection and forwarding                     |
+| Suricata                   | Network Intrusion Detection System                |
+| Zeek                       | Network Security Monitoring                       |
+| Apache                     | HTTP traffic generation                           |
+| Nmap                       | Network reconnaissance                            |
+| NetExec                    | SMB authentication testing                        |
+| VirtualBox                 | Virtual SOC infrastructure                        |
+
