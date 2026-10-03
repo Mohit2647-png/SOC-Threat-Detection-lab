@@ -1,8 +1,11 @@
 # HTTP Beaconing Detection
 
-Zeek was used to monitor HTTP traffic generated inside the SOC network.
+### Definition:
+Detects repeated or periodic HTTP communication between a host and a remote destination that may indicate automated communication, command-and-control activity, or malware beaconing.
 
-##Zeek HTTP log:
+Test performed: HTTP traffic was generated in the lab and monitored using Zeek http.log. The logs were forwarded to Splunk for analysis of repeated HTTP communication patterns.
+
+## Zeek HTTP log:
 ```bash
 
 http.log
