@@ -80,7 +80,7 @@
        | NetExec       |   | SIEM          |
        +---------------+   +---------------+
 ```
-##Security Monitoring Pipeline
+## Security Monitoring Pipeline
 ``` text
 Kali Linux
     |
