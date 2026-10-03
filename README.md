@@ -106,3 +106,15 @@ Windows Splunk Enterprise
     v
 Detection Rules + Alerts + Dashboard
 ```
+## Network configuration
+| VM         | Interface | IP Address         | Purpose              |
+| ---------- | --------- | ------------------ | -------------------- |
+| Kali Linux | `eth0`    | `192.168.20.11/24` | SOC Internal Network |
+| Ubuntu     | `enp0s8`  | `192.168.20.12/24` | SOC Internal Network |
+| Windows    | Ethernet  | `192.168.20.10/24` | SOC Internal Network |
+
+| Interface | IP Address         | Purpose                   |
+| --------- | ------------------ | ------------------------- |
+| `enp0s3`  | `10.0.2.15/24`     | Internet / VirtualBox NAT |
+| `enp0s8`  | `192.168.20.12/24` | SOC Internal Network      |
+
