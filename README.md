@@ -118,3 +118,15 @@ Detection Rules + Alerts + Dashboard
 | `enp0s3`  | `10.0.2.15/24`     | Internet / VirtualBox NAT |
 | `enp0s8`  | `192.168.20.12/24` | SOC Internal Network      |
 
+## Log Collection
+
+Splunk Universal Forwarder on Ubuntu forwards security telemetry to Splunk Enterprise running on Windows.
+# splunk receiver
+192.168.20.10:9997
+# Monitored Logs
+/var/log/suricata/eve.json
+/var/log/auth.log
+/home/ubun/Desktop/conn.log
+/home/ubun/Desktop/http.log
+/home/ubun/Desktop/dns.log
+
