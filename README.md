@@ -171,37 +171,36 @@ Project Objectives
 
 ## The objectives of this project were:
 
-Build an isolated SOC environment using VirtualBox
-Configure a multi-VM security network
-Generate realistic security events
-Collect network and authentication telemetry
-Deploy Suricata for network intrusion detection
-Deploy Zeek for network security monitoring
-Configure Splunk Universal Forwarder
-Centralize logs in Splunk Enterprise
-Develop SPL-based security detections
-Create automated security alerts
-Simulate common attack techniques
-Analyze attacker activity
-Build a SOC monitoring dashboard
-Practice detection engineering
-Practice security event investigation
-Key Learning Outcomes
-
-## Through this project, I gained practical experience with:
+- Build an isolated SOC environment using VirtualBox
+- Configure a multi-VM security network
+- Generate realistic security events
+- Collect network and authentication telemetry
+- Deploy Suricata for network intrusion detection
+- Deploy Zeek for network security monitoring
+- Configure Splunk Universal Forwarder
+- Centralize logs in Splunk Enterprise
+- Develop SPL-based security detections
+- Create automated security alerts
+- Simulate common attack techniques
+- Analyze attacker activity
+- Build a SOC monitoring dashboard
+- Practice detection engineering
+- Practice security event investigation
+## Key Learning Outcomes
+Through this project, I gained practical experience with:
 
 - SIEM configuration
 - SPL query development
 - Network traffic analysis
 - IDS deployment
-Network Security Monitoring
-Linux log analysis
-Windows Security Event analysis
-Authentication attack detection
-Network reconnaissance detection
-Reverse shell detection
-DNS monitoring
-Security alert creation
-SOC dashboard development
-Virtualized security lab deployment
+- Network Security Monitoring
+- Linux log analysis
+- Windows Security Event analysis
+- Authentication attack detection
+- Network reconnaissance detection
+- Reverse shell detection
+- DNS monitoring
+- Security alert creation- 
+- SOC dashboard development
+- Virtualized security lab deployment
 
