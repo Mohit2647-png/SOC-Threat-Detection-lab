@@ -81,7 +81,7 @@
        +---------------+   +---------------+
 ```
 Security Monitoring Pipeline
-
+``` text
 Kali Linux
     |
     | Attack Simulation
@@ -105,3 +105,4 @@ Windows Splunk Enterprise
     |
     v
 Detection Rules + Alerts + Dashboard
+```
